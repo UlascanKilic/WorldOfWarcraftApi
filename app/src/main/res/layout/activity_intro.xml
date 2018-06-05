@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_bg"
+    tools:context=".Intro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/vanilla" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to\n World of Warcraft Zone API"
+
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorBackground"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/fredoka_one" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorBackground"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/fredoka_one"
+            android:text="Selahattin Ulascan Kilic" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
